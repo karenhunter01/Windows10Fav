@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 10, 2015, 3:46:53 PM
+    Author     : Karen
+*/
+
+body {
+    background: linear-gradient(yellow, white);
+    background-repeat: no-repeat;
+    font-family: arial, verdana;
+    font-size: 20px;
+   
+}
+
+header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    color: red;
+    height: 60px;
+}
+
+.logo {
+border: 2px red dashed;
+background-image: url(../images/books_logo.jpg);
+background-size: 210px 40px;
+background-repeat: no-repeat;
+transition: background-image 2s;
+}
+.logo:hover {
+    background-image: url(../imags/StackOfBooks);
+    
+}
+@keyframes colorChange {
+    from { color: red; }
+    to { color: black; }
+}
+
+.PageHeading {
+    width: 1000px;
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 2px 2px red;
+    letter-spacing: 10px;
+    border: 3px solid red;
+    transform: scaleX(1);
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-duration: 199s;
+}
+.PageHeading:hover {
+    transform: rotate3d(0,1,0, 10deg);
+    transition-duration: 3s;
+}
+
+img#clothes {
+    
+}
